@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_azsntestdev_harnesscd_example_apps_1747771267250-pr-trigger-input-set
+  identifier: Build_azsntestdev_harnesscd_example_apps_1747771267250prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_azsntestdev_harnesscd_example_apps_1747771267250
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
